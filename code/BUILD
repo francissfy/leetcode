@@ -10,3 +10,8 @@ cc_binary(
     srcs = ["longest_substr_with_limit_ae.cpp"]
 )
 
+cc_binary(
+    name = "flip_col_max_num_equal_rows",
+    srcs = ["flip_col_max_num_equal_rows.cpp"]
+)
+
