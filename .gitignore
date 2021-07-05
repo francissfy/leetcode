@@ -1,0 +1,4 @@
+.vscode/
+blade-bin
+build64_release/
+.DS_Store

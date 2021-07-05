@@ -1,0 +1,25 @@
+cc_config(
+    warnings = [],
+    cxx_warnings = [
+        '-Wdouble-promotion',
+        '-Wshadow',
+        '-Wunused-variable',
+        '-Wmissing-field-initializers',
+        '-Wunused-function',
+        '-Wswitch',
+        '-Wvla',
+        '-Wall',
+        '-Wextra',
+        '-Wstrict-aliasing',
+        '-Wno-unused-parameter',
+    ],
+    cxxflags = [
+        '-std=c++11',
+        '-g',
+        '-fsanitize=address',
+    ],
+    linkflags = [
+        '-fsanitize=address',
+    ],
+    optimize = ['-O1', '-fno-omit-frame-pointer',]
+)
