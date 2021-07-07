@@ -15,3 +15,7 @@ cc_binary(
     srcs = ["flip_col_max_num_equal_rows.cpp"]
 )
 
+cc_binary(
+    name = "largest_merge_two_strings",
+    srcs = ["largest_merge_two_strings.cpp"]
+)
