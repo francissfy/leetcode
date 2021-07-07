@@ -19,3 +19,8 @@ cc_binary(
     name = "largest_merge_two_strings",
     srcs = ["largest_merge_two_strings.cpp"]
 )
+
+cc_binary(
+    name = "swap_char_in_lr",
+    srcs = ["swap_char_in_lr.cpp"]
+)
