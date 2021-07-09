@@ -24,3 +24,13 @@ cc_binary(
     name = "swap_char_in_lr",
     srcs = ["swap_char_in_lr.cpp"]
 )
+
+cc_binary(
+    name = "power_of_two",
+    srcs = ["power_of_two.cpp"]
+)
+
+cc_binary(
+    name = "is_binary_search_tree",
+    srcs = ["is_binary_search_tree.cpp"]
+)
