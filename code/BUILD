@@ -34,3 +34,13 @@ cc_binary(
     name = "is_binary_search_tree",
     srcs = ["is_binary_search_tree.cpp"]
 )
+
+cc_binary(
+    name = "restore_binary_tree",
+    srcs = ["restore_binary_tree.cpp"]
+)
+
+cc_binary(
+    name = "rm_redundant_in_list",
+    srcs = ["rm_redundant_in_list.cpp"]
+)
