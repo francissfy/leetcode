@@ -44,3 +44,18 @@ cc_binary(
     name = "rm_redundant_in_list",
     srcs = ["rm_redundant_in_list.cpp"]
 )
+
+cc_binary(
+    name = "subtree_sum_max_product",
+    srcs = ["subtree_sum_max_product.cpp"]
+)
+
+cc_binary(
+    name = "is_ugly_num",
+    srcs = ["is_ugly_num.cpp"]
+)
+
+cc_binary(
+    name = "minimum_in_rotated_sorted_array",
+    srcs = ["minimum_in_rotated_sorted_array.cpp"]
+)
