@@ -59,3 +59,18 @@ cc_binary(
     name = "minimum_in_rotated_sorted_array",
     srcs = ["minimum_in_rotated_sorted_array.cpp"]
 )
+
+cc_binary(
+    name = "deck_of_cards",
+    srcs = ["deck_of_cards.cpp"]
+)
+
+cc_binary(
+    name = "last_k_nodes_in_list",
+    srcs = ["last_k_nodes_in_list.cpp"]
+)
+
+cc_binary(
+    name = "all_possible_full_binary_tree",
+    srcs = ["all_possible_full_binary_tree.cpp"]
+)
