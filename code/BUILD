@@ -74,3 +74,13 @@ cc_binary(
     name = "all_possible_full_binary_tree",
     srcs = ["all_possible_full_binary_tree.cpp"]
 )
+
+cc_binary(
+    name = "post_order_visit",
+    srcs = ["post_order_visit.cpp"]
+)
+
+cc_binary(
+    name = "previsit_const_bstree",
+    srcs = ["previsit_const_bstree.cpp"]
+)
