@@ -84,3 +84,13 @@ cc_binary(
     name = "previsit_const_bstree",
     srcs = ["previsit_const_bstree.cpp"]
 )
+
+cc_binary(
+    name = "tree_level_visit",
+    srcs = ["tree_level_visit.cpp"]
+)
+
+cc_binary(
+    name = "emotional_word",
+    srcs = ["emotional_word.cpp"]
+)
