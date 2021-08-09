@@ -94,3 +94,18 @@ cc_binary(
     name = "emotional_word",
     srcs = ["emotional_word.cpp"]
 )
+
+cc_binary(
+    name = "xor_equal_triple",
+    srcs = ["xor_equal_triple.cpp"]
+)
+
+cc_binary(
+    name = "split2fibonacci",
+    srcs = ["split2fibonacci.cpp"]
+)
+
+cc_binary(
+    name = "sort_array",
+    srcs = ["sort_array.cpp"]
+)

@@ -17,9 +17,11 @@ cc_config(
         '-std=c++11',
         '-g',
         '-fsanitize=address',
+        '-fsanitize=undefined',
     ],
     linkflags = [
         '-fsanitize=address',
+        '-fsanitize=undefined',
     ],
-    optimize = ['-O1', '-fno-omit-frame-pointer',]
+    optimize = ['-O0', '-fno-omit-frame-pointer',]
 )
