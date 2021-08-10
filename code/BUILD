@@ -109,3 +109,13 @@ cc_binary(
     name = "sort_array",
     srcs = ["sort_array.cpp"]
 )
+
+cc_binary(
+    name = "reverse_pairs",
+    srcs = ["reverse_pairs.cpp"]
+)
+
+cc_binary(
+    name = "best_coordinate",
+    srcs = ["best_coordinate.cpp"]
+)
